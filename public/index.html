@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#24303C">
+    <title>California Education Code Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-container"></div>
+    <div class="container">
+        <header>
+            <img src="logo.jpg" alt="Civil Review Board Logo" class="main-logo">
+            <h1>California Education Code Assistant</h1>
+        </header>
+        <div id="chat-container">
+            <div id="chat-messages"></div>
+            <div id="spinner-container">
+                <div id="spinner" class="spinner">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+            </div>
+            <div id="example-questions">
+                <button id="toggle-examples">Show Example Questions</button>
+                <div class="question-bubbles">
+                    <button class="question-bubble">What are the requirements for school attendance?</button>
+                    <button class="question-bubble">How are charter schools regulated in California?</button>
+                    <button class="question-bubble">What are the rules regarding student discipline?</button>
+                </div>
+            </div>
+            <form id="chat-form">
+                <input type="text" id="user-input" placeholder="Ask a question...">
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Created by the Civil Review Board</p>
+        <p>&copy; 2024 Civil Review Board. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
